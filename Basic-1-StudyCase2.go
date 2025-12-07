@@ -15,5 +15,24 @@ type bus struct {
 func main () {
   var pilih bus
   fmt.Println("--Pilih tiket yang anda butuhkan--")
-  
+  tujuan()
+}
+
+func tujuan() {
+  var pilih int
+  fmt.Println("-Pilih tujuan anda-")
+  fmt.Println("1. Kota A")
+  fmt.Println("2. Kota B")
+  fmt.Println("3. Kota C")
+  fmt.Println("4. Kota D")
+  fmt.Println("5. Kota E")
+  fmt.Print("\nPilih: ")
+  fmt.Scan(&pilih)
+  waktu()
+}
+
+func waktu() {
+  var pilih bus
+  fmt.Println("-kapan waktu keberangkatan anda-")
+  fmt.Scan(&pilih.waktu)
 }
