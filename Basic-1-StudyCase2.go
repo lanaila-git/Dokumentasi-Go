@@ -7,6 +7,13 @@ package main
 
 import "fmt"
 
+type bus struct {
+  tujuan string
+  waktu string
+  tipe string
+}
 func main () {
+  var pilih bus
+  fmt.Println("--Pilih tiket yang anda butuhkan--")
   
 }
